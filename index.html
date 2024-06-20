@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanchan- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(2, 2, 56);
+    color:white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(42, 26, 104);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+   
+    color:rgb(190, 115, 186);
+    font-size: 1.04rem;
+}
+main hr{
+    border:0;
+    background-color: rgb(128, 128, 170);
+    height:1.2px;
+    margin: 60px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  60px 0;
+
+}
+.firstSection > div{
+    width:30%;
+}
+.leftSection{
+    font-size: 3rem;
+    
+}
+.leftSection .btn{
+    padding: 12px;
+    background:#1e2167;
+    color:white;
+    border:2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor:pointer;
+}
+.rightSection img{ 
+    width:80%;
+  
+}
+.purple{
+    color: rgb(180, 137, 218);
+}
+.text-gray{
+    color:gray;
+}
+#element{
+    color: blueviolet;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection .box{
+    background: white;
+    width:80vw;
+    height: 2px;
+    margin:56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 83px;
+    width:1px;
+    background-color: white;
+    margin:0 100px;
+}
+.image-top{
+    width:23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 60px;
+    width:40px;
+    left: 9px;  
+}
+.vertical-desc{
+    position:relative;
+    top:160px;
+    color:white;
+    width:85px;
+    right:90px;
+    font-size:9px;
+    
+
+}
+
+.footer {
+    background-color: #161212;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-column p,
+.footer-column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+.social-media {
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Kanchan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="/"><li>Home</a></li>
+                    <a href="/"><li>About</a></li>
+                    <a href="/"><li>Services</a></li>
+                    <a href="/"><li>Projects</a></li>
+                    <a href="/"><li>Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Kanchan</span> 
+                <div>and I am a passionate</div>
+                
+                <span id="element"></span>
+                <div class="button-container">
+                    <a href="path/to/your/resume.pdf" class="btn" download>Download Resume</a>
+                    <a href="https://github.com/kanchan115" class="btn" target="_blank">Visit GitHub</a>
+                </div>
+            
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-white">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"src="htmllogo.png" alt="">
+                    <div class="vertical-title">
+                         HTML Developer(2023-2024)
+                    </div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio consequuntur voluptatem. Consequ.
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="csslogo.png" alt="">
+                    <div class="vertical-title">
+                         CSS Developer(2023-2024)
+                    </div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio consequuntur voluptatem. Consequuntur.
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="jslogo.png" alt="">
+                    <div class="vertical-title">
+                         Javascript Developer(2023-2024)
+                    </div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio consequuntur voluptatem. Consequun.
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="reactlogo.png" alt="">
+                    <div class="vertical-title">
+                         React.js Developer(2023-2024)
+                    </div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio consequuntur voluptatem. Consequu.
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="nextjslogo.png" alt="">
+                    <div class="vertical-title">
+                        Next.js Developer(2023-2024)
+                    </div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio consequuntur voluptatem. Consequuntur est.
+                </div>
+                
+                
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>Email: kanchanraul333@gmail.com</p>
+                <p>Phone: +91 7506226639</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Me</h3>
+                <ul class="social-media">
+                    <li><a href="#" class="social-icon">Facebook</a></li>
+                    <li><a href="#" class="social-icon">Twitter</a></li>
+                    <li><a href="#" class="social-icon">LinkedIn</a></li>
+                    <li><a href="#" class="social-icon">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>About</h3>
+                <p>Welcome to my portfolio website. I'm a passionate developer and designer.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>www.kanchansportfolio.com | All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Python Developer','Data Analyst','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
